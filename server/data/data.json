@@ -1,0 +1,22 @@
+[
+    {
+        "name": "svc_customermanagement",
+        "wadl": "http://intranet/svc_postbox/pbox/rs=?_wadl",
+        "database": [
+            {
+                "connection": "jdbc://kdfjkdfjkdjfkjdfkjdfkd",
+                "user": "muqsith",
+                "password": "something..."
+            }
+        ],
+        "deployment": [
+            {
+                "host": "10.4.52.401",
+                "hostname": "HQDITD40",
+                "container-type": "Tomee plume",
+                "container-name": "Plume 2",
+                "port": 9402
+            }
+        ]
+    }
+]
